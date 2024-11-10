@@ -1,0 +1,44 @@
+﻿body {
+}
+table {
+            border: 1px solid #000080;
+            border-collapse: collapse;
+            width: 800px;            
+        }
+
+        .t1 {
+            height: 40px;
+            font-weight: bold;
+        }
+
+        .t_title {
+            height: 40px;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            background:#338FCC;
+        }
+
+        .t_title span{
+            margin-left:20px;
+        }
+
+        .title_1 {
+            padding-left: 20px;           
+        }       
+
+            #tbody tr, #tbody td {
+                border: 1px solid #000080;               
+            }
+            #tbody td {
+                width: 200px;
+            }
+
+        #dv {
+            padding-top: 10px;
+            width: 800px;
+            margin: 0 auto;
+            background-size: contain;           
+            background-repeat: no-repeat;
+            background-position: center;
+        }

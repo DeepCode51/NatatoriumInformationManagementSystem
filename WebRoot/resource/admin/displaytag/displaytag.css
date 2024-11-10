@@ -1,0 +1,107 @@
+th a,th a:visited {
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+}
+
+th a:hover {
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	width: 100%;
+	font-weight: bold;
+}
+
+th.sortable a {
+	background-image: url(../images/arrow_off.png);
+	background-repeat: no-repeat;
+}
+
+th.order1 a {
+	background-image: url(../images/arrow_down.png);
+	background-repeat: no-repeat;
+}
+
+th.order2 a {
+	background-image: url(../images/arrow_up.png);
+	background-repeat: no-repeat;
+}
+
+div.exportlinks {
+	background-color: #eee;
+	padding: 2px 4px 2px 4px;
+	border: 1px dotted #999;
+	margin: 2px 0 10px 0;
+	align: left;
+	text-align: left;
+	font-size: 15px;
+	position: relative;
+	left: expression(this.offsetParent.scrollLeft);
+}
+
+span.export {
+	padding: 0 4px 1px 4px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+	text-align: left;
+	width: 100%;
+	align: left;
+}
+
+span.excel {
+	background-image: url(../img/ico_file_excel.png);
+}
+
+span.csv {
+	background-image: url(../img/ico_file_csv.png);
+}
+
+span.xml {
+	background-image: url(../img/ico_file_xml.png);
+}
+
+span.pdf {
+	background-image: url(../img/ico_file_pdf.png);
+}
+
+span.rtf {
+	background-image: url(../img/ico_file_rtf.png);
+}
+
+span.pagebanner {
+	background-color: #eee;
+	padding: 2px 4px 2px 4px;
+	border: 1px dotted #999;
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	padding: 4px 0px 4px 0px;
+	border: 0px dotted #999;
+	width: 100%;
+	display: block;
+	font-size: 12px;
+	border-top: none;
+	margin-bottom: -5px;
+	text-align: left;
+	align: left;
+	position: relative;
+	left: expression(this.offsetParent.scrollLeft);
+}
+.right {
+	width: 65%;
+	text-align: right;
+}
+.left {
+	width: 35%;
+	text-align: left;
+}

@@ -1,0 +1,148 @@
+/* CSS Document */
+body {
+	font-family:Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #333;
+}
+a:link {
+	color: #666;
+	text-decoration: none;	
+}
+a:visited {
+	color: #666;
+	text-decoration: none;	
+}
+a:hover {
+	color: #C00;
+	text-decoration: none;	
+}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+
+/* 头部 */
+.top {
+	width: 980px;
+	height: 90px;
+	margin: 0 auto;
+	background: url(../images/tp01_20140320.png) no-repeat left center;	
+}
+.top ul {
+	height: 90px;
+	line-height: 90px;
+	float: right;
+}
+.top ul li {
+	float: left;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.top ul li a.hover {
+	color: #F60;
+}
+.top ul li a.hover:hover {
+	color: #C00;
+}
+
+/* 登录主体 */
+.main {
+	height: 520px;
+	background: url(../images/tp02_20140320.png) repeat-x;
+}
+.main .denglu {
+	width: 1280px;
+	height: 520px;
+	background: url(../images/pic01_20140320.jpg) no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+.main .denglu .text {
+	width: 450px;
+	position: absolute;
+	left: 260px;
+	top: 155px;
+	line-height: 26px;
+}
+.main .denglu .dlk {
+	width: 354px;
+	height: 328px;
+	position: absolute;
+	right: 180px;
+	top: 120px;
+	color: #999;
+}
+.main .denglu .dlk a.mm {
+	color: #000;
+	font-size: 12px;
+}
+.main .denglu .dlk a.mm:hover {
+	color: #C00;
+}
+.main .denglu .dlk a.zc {
+	color: #F60;
+}
+.main .denglu .dlk a.zc:hover {
+	color: #C00;
+}
+
+/* 登录底部 */
+.footer {
+	font-size: 13px;
+	height: 70px;
+	line-height:70px;
+	background: url(../images/tp08_20140320.png) repeat-x;
+	text-align: center;
+	color: #666;	
+}
+
+/* button,input */
+.dlinput {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc;
+	width: 222px;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 2px;
+	font-size: 14px;
+	
+}
+.loginbtn {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url(../images/tp06_20140320.png) no-repeat;
+	border: none 0;
+	width: 224px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+.loginbtn:hover, .loginbtn:focus {
+	background: url(../images/tp07_20140320.png) no-repeat;
+}
+.loginbtn:active {
+	color: #ccc;
+}

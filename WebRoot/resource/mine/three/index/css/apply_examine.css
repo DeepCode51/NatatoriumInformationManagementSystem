@@ -1,0 +1,64 @@
+﻿p, h1, h2, h3, h4, h5, h6, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.table tr td {
+    border: 1px solid #ccc;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.first {
+    width: 100px;
+    text-align: right;
+}
+
+.input {
+    width: 220px;
+}
+
+input {
+    width: 182px;
+}
+
+.addr {
+    width: 508px;
+}
+
+.secend {
+    height: 60px;
+}
+
+.xing {
+    color: red;
+}
+
+.server {
+    border: 1px solid #ccc;
+}
+
+.examine_title {
+    padding: 10px 0;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100px;
+}

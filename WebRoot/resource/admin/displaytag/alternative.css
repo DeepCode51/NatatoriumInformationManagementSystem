@@ -1,0 +1,57 @@
+table.list {
+	border-collapse: collapse;
+	background-color: white;
+	font-size: 12px;
+	width: 100%;
+}
+
+table.list caption {
+	BACKGROUND-IMAGE: url(../images/tablerow2.gif);
+	text-valign: middle;
+	text-align: center;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 15px;
+	color: #0054A6;
+	height: 26px;
+	border-bottom-color : #666666;
+}
+
+table.list th,table.list td {
+	padding: 1px 6px 1px 6px !important;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: normal;
+	border: 1px solid #B8C9D8;
+}
+
+table.list thead tr{
+	background-image: url('../framefiles/images/i-rightbg2.gif');
+	color: #0054A6;
+	font-size: 12px;
+	height: 25px;
+	font: 12px;
+}
+
+table.list thead tr th{
+font-weight: bold;
+}
+
+table.list tr.even {
+	background-color: #ECF7FF;  height:30px;
+}
+
+table.list tr.odd {
+	background-color: #FFFFFF;  height:30px;
+}
+
+table.noborder {
+	border: 0;
+}
+
+table.noboder tr {
+	border: 0;
+}
+
+table.noboder td {
+	border: 0;
+}
